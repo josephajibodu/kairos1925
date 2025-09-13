@@ -3,6 +3,8 @@
 use App\Http\Controllers\WeddingController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/dashboard', function () {})->name('dashboard');
+
 // Wedding Template Routes
 Route::get('/', [WeddingController::class, 'home'])->name('home');
 Route::get('/about', [WeddingController::class, 'about'])->name('about');
