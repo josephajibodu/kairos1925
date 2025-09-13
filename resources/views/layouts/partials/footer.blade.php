@@ -1,5 +1,5 @@
 <!-- start of wpo-site-footer-section -->
-<footer class="wpo-site-footer-s2">
+<footer class="wpo-site-footer">
     <div class="wpo-upper-footer">
         <div class="container">
             <div class="row align-items-center">

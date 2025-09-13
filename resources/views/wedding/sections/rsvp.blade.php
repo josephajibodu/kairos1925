@@ -1,5 +1,5 @@
 <!-- start of wpo-contact-section -->
-<section class="wpo-contact-section-s2 section-padding">
+<section class="wpo-contact-section section-padding">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col col-xl-4 col-lg-6 col-md-6 col-12">

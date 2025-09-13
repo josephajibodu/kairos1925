@@ -1,6 +1,6 @@
 <!-- Start header -->
 <header id="header">
-    <div class="wpo-site-header wpo-header-style-2">
+        <div class="wpo-site-header">
         <nav class="navigation navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <div class="row align-items-center">
