@@ -11,6 +11,8 @@ return [
         'wedding_date' => env('WEDDING_DATE', 'November 1, 2025'),
         'wedding_date_raw' => env('WEDDING_DATE_RAW', '2025-11-01'),
         'announcement_text' => env('WEDDING_ANNOUNCEMENT', 'We Are Getting Married November 1, 2025'),
+        'bride_bio' => env('WEDDING_BRIDE_BIO', 'A beautiful soul with a heart full of love and laughter. Esther brings joy to everyone around her and has been the light of my life since we met on that fateful SEA001 field trip.'),
+        'groom_bio' => env('WEDDING_GROOM_BIO', 'A dedicated and loving man who knew from the moment he saw Esther that she was the one. Joseph is passionate about life, family, and keeping the promises he makes - especially the one he made on our first date.'),
     ],
 
     'contact' => [
@@ -59,21 +61,21 @@ return [
 
     'story' => [
         [
-            'date' => '15 June, 2014',
-            'title' => 'How we meet',
-            'description' => 'Consectetur adipiscing elit. Fringilla at risus orci, tempus facilisi sed. Enim tortor, faucibus netus orci donec volutpat adipiscing. Sit condimentum elit convallis libero. Nunc in eu tellus ipsum placerat.',
+            'date' => 'July 10, 2019',
+            'title' => 'How We Met',
+            'description' => 'I met Esther on July 10, 2019 at the most unlikely event, the SEA001 field trip. While scrambling for a space in the bus among many other students, I sighted her from behind. Something struck within me; I didn\'t know what it was, but I knew I wanted to know her. I pushed harder to get on the bus, even leaving my friend behind because I had seen "the lady." By the time I entered, all the seats were gone, and I had to stand. Unexpectedly, Esther and her friends adjusted and offered me a seat beside her.',
             'image' => 'assets/images/story/1.jpg',
         ],
         [
-            'date' => '02 Nov, 2020',
-            'title' => 'He proposed, I said yes',
-            'description' => 'Consectetur adipiscing elit. Fringilla at risus orci, tempus facilisi sed. Enim tortor, faucibus netus orci donec volutpat adipiscing. Sit condimentum elit convallis libero. Nunc in eu tellus ipsum placerat.',
+            'date' => '6th July, 2025',
+            'title' => 'He Proposed, I Said Yes',
+            'description' => 'That simple act opened the door to our first conversation. We became friends, and a few months later, Joseph asked me to be his girlfriend. On that very day, he told me, "I\'m asking you to be my girlfriend because I want to marry you." Joseph proposed to me on the 6th of July 2025 in Lekki, Lagos State after we went on a romantic date to an art exhibition titled echoes of innocence. The rest, as they say, is history, and today, that promise becomes reality.',
             'image' => 'assets/images/story/2.jpg',
         ],
         [
-            'date' => '15 Apr, 2021',
+            'date' => 'Coming Soon',
             'title' => 'Our Engagement Day',
-            'description' => 'Consectetur adipiscing elit. Fringilla at risus orci, tempus facilisi sed. Enim tortor, faucibus netus orci donec volutpat adipiscing. Sit condimentum elit convallis libero. Nunc in eu tellus ipsum placerat.',
+            'description' => 'Our Engagement day is going to be the day our families come together under the Yoruba culture to pay the bride price with the groom family coming bearing gifts for the bride and her family and a letter of proposal to the family. After accepting proposal the family blesses the union of their children as they start a new family. It promises to be a really fun event.',
             'image' => 'assets/images/story/3.jpg',
         ],
     ],

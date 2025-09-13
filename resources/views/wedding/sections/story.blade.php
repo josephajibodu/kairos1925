@@ -20,7 +20,7 @@
                     </div>
                     @endif
                     <div class="wpo-img-shape">
-                        <img src="{{ asset('assets/images/story/shape' . ($index + 1) . '.png') }}" alt="">
+                        <img src="{{ asset('assets/images/story/' . ($index == 0 ? 'shape.png' : 'shape' . ($index + 1) . '.png')) }}" alt="">
                     </div>
                 </div>
                 <div class="wpo-story-content">

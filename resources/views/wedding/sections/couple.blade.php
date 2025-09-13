@@ -29,8 +29,8 @@
                                         </svg>
                                     </div>
                                     <div class="couple-text">
-                                        <h3>{{ config('wedding.couple.bride_name', 'Jane Margrate') }}</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna orci auctor vitae nisl. Erat fringilla pellentesque amet tempus. Commodo mi vitae, sagittis blandit.</p>
+                                        <h3>{{ config('wedding.couple.bride_name', 'Esther Alade') }}</h3>
+                                        <p>{{ config('wedding.couple.bride_bio', 'A beautiful soul with a heart full of love and laughter. Esther brings joy to everyone around her and has been the light of my life since we met on that fateful SEA001 field trip.') }}</p>
                                         <div class="social">
                                             <ul>
                                                 <li><a href="{{ config('wedding.social.facebook', '#') }}"><i class="ti-facebook"></i></a></li>
@@ -55,8 +55,8 @@
                                         </svg>
                                     </div>
                                     <div class="couple-text">
-                                        <h3>{{ config('wedding.couple.groom_name', 'Robert Peter') }}</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna orci auctor vitae nisl. Erat fringilla pellentesque amet tempus. Commodo mi vitae, sagittis blandit.</p>
+                                        <h3>{{ config('wedding.couple.groom_name', 'Joseph Ajibodu') }}</h3>
+                                        <p>{{ config('wedding.couple.groom_bio', 'A dedicated and loving man who knew from the moment he saw Esther that she was the one. Joseph is passionate about life, family, and keeping the promises he makes - especially the one he made on our first date.') }}</p>
                                         <div class="social">
                                             <ul>
                                                 <li><a href="{{ config('wedding.social.facebook', '#') }}"><i class="ti-facebook"></i></a></li>
