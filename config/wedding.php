@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'site_name' => env('WEDDING_SITE_NAME', 'Habibi'),
+    'site_name' => env('WEDDING_SITE_NAME', 'Kairos1925'),
     'title' => env('WEDDING_TITLE', 'Habibi - Wedding & Wedding Planner HTML5 Template'),
 
     'couple' => [
@@ -16,7 +16,7 @@ return [
     ],
 
     'contact' => [
-        'email' => env('WEDDING_CONTACT_EMAIL', 'habibi@example.com'),
+        'email' => env('WEDDING_CONTACT_EMAIL', 'kairos1925@gmail.com'),
         'phone' => env('WEDDING_CONTACT_PHONE', '08167297386'),
         'address' => env('WEDDING_ADDRESS', 'JOBAMED EVENT CENTER, Along Robiyan Ibaragun Road, Abule Ijoko, Ogun State.'),
     ],
@@ -33,29 +33,20 @@ return [
         'ceremony' => [
             'title' => 'The Ceremony',
             'date' => 'Saturday, 1 Nov. 2025',
-            'time' => '2:00 PM – 4:00 PM',
+            'time' => '10:00 AM – 1:00 PM',
             'address' => 'JOBAMED EVENT CENTER, Along Robiyan Ibaragun Road, Abule Ijoko, Ogun State.',
             'phone' => '08167297386',
             'image' => 'assets/images/event/2.jpg',
-            'google_maps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881',
-        ],
-        'reception' => [
-            'title' => 'The Reception',
-            'date' => 'Saturday, 1 Nov. 2025',
-            'time' => '6:00 PM – 12:00 AM',
-            'address' => 'JOBAMED EVENT CENTER, Along Robiyan Ibaragun Road, Abule Ijoko, Ogun State.',
-            'phone' => '08167297386',
-            'image' => 'assets/images/event/1.jpg',
-            'google_maps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881',
+            'google_maps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.1234567890123!2d3.2975512!3d6.7481757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bbdee15f3382f%3A0xd1b98e477d665c22!2sJOBAMED%20EVENT%20CENTER!5e0!3m2!1sen!2sng!4v1503742051881',
         ],
         'party' => [
             'title' => 'The Party',
             'date' => 'Saturday, 1 Nov. 2025',
-            'time' => '7:00 PM – 11:00 PM',
+            'time' => '1:00 PM – 3:00 PM',
             'address' => 'JOBAMED EVENT CENTER, Along Robiyan Ibaragun Road, Abule Ijoko, Ogun State.',
             'phone' => '08167297386',
             'image' => 'assets/images/event/3.jpg',
-            'google_maps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881',
+            'google_maps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.1234567890123!2d3.2975512!3d6.7481757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bbdee15f3382f%3A0xd1b98e477d665c22!2sJOBAMED%20EVENT%20CENTER!5e0!3m2!1sen!2sng!4v1503742051881',
         ],
     ],
 
