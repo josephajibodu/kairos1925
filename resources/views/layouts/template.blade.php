@@ -41,7 +41,9 @@
         @yield('content')
 
         @include('layouts.partials.footer')
-        @include('layouts.partials.color-switcher')
+        @if(!app()->isProduction())
+            @include('layouts.partials.color-switcher')
+        @endif
     </div>
     <!-- end of page-wrapper -->
 
