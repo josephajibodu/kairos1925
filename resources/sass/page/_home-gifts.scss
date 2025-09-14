@@ -1,0 +1,685 @@
+/*------------------------------------------------------------------
+Custom Gifts Section Styles
+----------------------------------------------------------------*/
+
+// Gifts Section Styles
+.gift-bank-details {
+    margin-bottom: 50px;
+
+    .bank-card {
+        background: #fff;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border: 2px solid #f8f9fa;
+        transition: all 0.3s ease;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .bank-header {
+            text-align: center;
+            margin-bottom: 30px;
+
+            h3 {
+                color: #333;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 10px;
+
+                i {
+                    color: $theme-primary-color;
+                    margin-right: 10px;
+                }
+            }
+
+            p {
+                color: #666;
+                font-size: 16px;
+                margin: 0;
+            }
+        }
+
+        .bank-info {
+            .bank-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px 0;
+                border-bottom: 1px solid #f0f0f0;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                .bank-label {
+                    font-weight: 600;
+                    color: #333;
+                    font-size: 16px;
+                }
+
+                .bank-value {
+                    font-weight: 700;
+                    color: $theme-primary-color;
+                    font-size: 16px;
+                    font-family: 'Courier New', monospace;
+                    background: transparentize($theme-primary-color, 0.9);
+                    padding: 8px 15px;
+                    border-radius: 8px;
+                    border: 1px solid transparentize($theme-primary-color, 0.8);
+                }
+            }
+        }
+    }
+}
+
+.gift-online-section {
+    h4 {
+        color: #333;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    p {
+        color: #666;
+        font-size: 16px;
+        margin: 0;
+    }
+}
+
+.gift-item {
+    .wpo-blog-img {
+        position: relative;
+        height: 200px;
+        background: $theme-primary-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px 15px 0 0;
+        overflow: hidden;
+
+        .gift-icon {
+            i {
+                font-size: 48px;
+                color: #fff;
+                text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+
+    .wpo-blog-content {
+        background: #fff;
+        padding: 30px;
+        border-radius: 0 0 15px 15px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+
+        .gift-amount {
+            text-align: center;
+            margin-bottom: 20px;
+
+            .amount {
+                display: inline-block;
+                background: $theme-primary-color;
+                color: #fff;
+                padding: 10px 20px;
+                border-radius: 25px;
+                font-size: 18px;
+                font-weight: 700;
+                box-shadow: 0 4px 15px transparentize($theme-primary-color, 0.7);
+            }
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .gift-action {
+            text-align: center;
+
+            .theme-btn-s2 {
+                display: inline-flex;
+                align-items: center;
+                background: $theme-primary-color;
+                color: #fff;
+                padding: 12px 25px;
+                border-radius: 25px;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 14px;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 15px transparentize($theme-primary-color, 0.7);
+
+                &:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 6px 20px transparentize($theme-primary-color, 0.6);
+                    color: #fff;
+                }
+
+                i {
+                    margin-left: 8px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        .wpo-blog-content {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+    }
+}
+
+// Color-specific styles for gifts section
+.color2 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-2;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-2, 0.9);
+        border-color: transparentize($theme-color-2, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-2;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-2;
+        box-shadow: 0 4px 15px transparentize($theme-color-2, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-2;
+        box-shadow: 0 4px 15px transparentize($theme-color-2, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-2, 0.6);
+        }
+    }
+}
+
+.color3 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-3;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-3, 0.9);
+        border-color: transparentize($theme-color-3, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-3;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-3;
+        box-shadow: 0 4px 15px transparentize($theme-color-3, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-3;
+        box-shadow: 0 4px 15px transparentize($theme-color-3, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-3, 0.6);
+        }
+    }
+}
+
+.color4 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-4;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-4, 0.9);
+        border-color: transparentize($theme-color-4, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-4;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-4;
+        box-shadow: 0 4px 15px transparentize($theme-color-4, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-4;
+        box-shadow: 0 4px 15px transparentize($theme-color-4, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-4, 0.6);
+        }
+    }
+}
+
+.color5 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-5;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-5, 0.9);
+        border-color: transparentize($theme-color-5, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-5;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-5;
+        box-shadow: 0 4px 15px transparentize($theme-color-5, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-5;
+        box-shadow: 0 4px 15px transparentize($theme-color-5, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-5, 0.6);
+        }
+    }
+}
+
+.color6 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-6;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-6, 0.9);
+        border-color: transparentize($theme-color-6, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-6;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-6;
+        box-shadow: 0 4px 15px transparentize($theme-color-6, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-6;
+        box-shadow: 0 4px 15px transparentize($theme-color-6, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-6, 0.6);
+        }
+    }
+}
+
+.color7 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-7;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-7, 0.9);
+        border-color: transparentize($theme-color-7, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-7;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-7;
+        box-shadow: 0 4px 15px transparentize($theme-color-7, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-7;
+        box-shadow: 0 4px 15px transparentize($theme-color-7, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-7, 0.6);
+        }
+    }
+}
+
+.color8 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-8;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-8, 0.9);
+        border-color: transparentize($theme-color-8, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-8;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-8;
+        box-shadow: 0 4px 15px transparentize($theme-color-8, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-8;
+        box-shadow: 0 4px 15px transparentize($theme-color-8, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-8, 0.6);
+        }
+    }
+}
+
+.color9 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-9;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-9, 0.9);
+        border-color: transparentize($theme-color-9, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-9;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-9;
+        box-shadow: 0 4px 15px transparentize($theme-color-9, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-9;
+        box-shadow: 0 4px 15px transparentize($theme-color-9, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-9, 0.6);
+        }
+    }
+}
+
+.color10 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-10;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-10, 0.9);
+        border-color: transparentize($theme-color-10, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-10;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-10;
+        box-shadow: 0 4px 15px transparentize($theme-color-10, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-10;
+        box-shadow: 0 4px 15px transparentize($theme-color-10, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-10, 0.6);
+        }
+    }
+}
+
+.color11 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-11;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-11, 0.9);
+        border-color: transparentize($theme-color-11, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-11;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-11;
+        box-shadow: 0 4px 15px transparentize($theme-color-11, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-11;
+        box-shadow: 0 4px 15px transparentize($theme-color-11, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-11, 0.6);
+        }
+    }
+}
+
+.color12 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-12;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-12, 0.9);
+        border-color: transparentize($theme-color-12, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-12;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-12;
+        box-shadow: 0 4px 15px transparentize($theme-color-12, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-12;
+        box-shadow: 0 4px 15px transparentize($theme-color-12, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-12, 0.6);
+        }
+    }
+}
+
+.color13 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-13;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-13, 0.9);
+        border-color: transparentize($theme-color-13, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-13;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-13;
+        box-shadow: 0 4px 15px transparentize($theme-color-13, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-13;
+        box-shadow: 0 4px 15px transparentize($theme-color-13, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-13, 0.6);
+        }
+    }
+}
+
+.color14 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-14;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-14, 0.9);
+        border-color: transparentize($theme-color-14, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-14;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-14;
+        box-shadow: 0 4px 15px transparentize($theme-color-14, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-14;
+        box-shadow: 0 4px 15px transparentize($theme-color-14, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-14, 0.6);
+        }
+    }
+}
+
+.color15 {
+    .gift-bank-details .bank-card .bank-header h3 i,
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        color: $theme-color-15;
+    }
+
+    .gift-bank-details .bank-card .bank-info .bank-row .bank-value {
+        background: transparentize($theme-color-15, 0.9);
+        border-color: transparentize($theme-color-15, 0.8);
+    }
+
+    .gift-item .wpo-blog-img {
+        background: $theme-color-15;
+    }
+
+    .gift-item .wpo-blog-content .gift-amount .amount {
+        background: $theme-color-15;
+        box-shadow: 0 4px 15px transparentize($theme-color-15, 0.7);
+    }
+
+    .gift-item .wpo-blog-content .gift-action .theme-btn-s2 {
+        background: $theme-color-15;
+        box-shadow: 0 4px 15px transparentize($theme-color-15, 0.7);
+
+        &:hover {
+            box-shadow: 0 6px 20px transparentize($theme-color-15, 0.6);
+        }
+    }
+}
+
+// Special styling for full-width "Other Amount" option
+.gift-item.col-12 {
+    .wpo-blog-img {
+        height: 150px;
+    }
+
+    .wpo-blog-content {
+        padding: 40px;
+
+        .gift-amount .amount {
+            font-size: 24px;
+            padding: 15px 30px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .gift-action .theme-btn-s2 {
+            font-size: 16px;
+            padding: 15px 35px;
+        }
+    }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+    .gift-bank-details {
+        .bank-card {
+            padding: 20px;
+
+            .bank-header h3 {
+                font-size: 20px;
+            }
+
+            .bank-info .bank-row {
+                flex-direction: column;
+                text-align: center;
+
+                .bank-label {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .gift-item {
+        .wpo-blog-content {
+            padding: 20px;
+        }
+
+        &.col-12 .wpo-blog-content {
+            padding: 30px 20px;
+
+            .gift-amount .amount {
+                font-size: 20px;
+                padding: 12px 25px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
