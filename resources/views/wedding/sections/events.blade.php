@@ -8,7 +8,7 @@
         <div class="wpo-event-wrap">
             <div class="row">
                 @foreach(config('wedding.events', []) as $eventKey => $event)
-                <div class="col col-lg-4 col-md-6 col-12">
+                <div class="col col-lg-6 col-md-6 col-12">
                     <div class="wpo-event-item wow fadeInUp" data-wow-duration="{{ 1000 + (array_search($eventKey, array_keys(config('wedding.events', []))) * 200) }}ms">
                         <div class="wpo-event-img">
                             <div class="wpo-event-img-inner">

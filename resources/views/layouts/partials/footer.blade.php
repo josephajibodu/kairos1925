@@ -8,6 +8,7 @@
                         <div class="widget-title">
                             <h3>Links</h3>
                         </div>
+                        <p>{{ config('wedding.footer_description', 'We can\'t wait to see all of our beloved friends and relatives at our wedding.') }}</p>
                         <div class="link-wrap">
                             <ul>
                                 <li><a href="{{ route('about') }}">About</a></li>
