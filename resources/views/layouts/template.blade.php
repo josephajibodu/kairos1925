@@ -27,7 +27,8 @@
     <link href="{{ asset('assets/css/jquery.fancybox.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/odometer-theme-default.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/jquery-ui.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/sass/style.css') }}" rel="stylesheet">
+    {{-- Main SASS-compiled CSS via Vite --}}
+    @vite(['resources/sass/style.scss'])
 
     @stack('styles')
 </head>
