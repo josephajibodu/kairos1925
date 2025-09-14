@@ -32,7 +32,7 @@
     @stack('styles')
 </head>
 
-<body>
+<body class="color6">
     <!-- start page-wrapper -->
     <div class="page-wrapper">
         @include('layouts.partials.preloader')
