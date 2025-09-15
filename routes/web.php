@@ -3,8 +3,6 @@
 use App\Http\Controllers\WeddingController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/dashboard', function () {})->name('dashboard');
-
 // Wedding Template Routes
 Route::get('/', [WeddingController::class, 'home'])->name('home');
 Route::get('/about', [WeddingController::class, 'about'])->name('about');
@@ -49,6 +47,9 @@ Route::get('/coming-soon', [WeddingController::class, 'comingSoon'])->name('comi
 Route::get('/404', [WeddingController::class, 'error404'])->name('404');
 Route::get('/invitation', [WeddingController::class, 'invitation'])->name('invitation');
 Route::get('/search', [WeddingController::class, 'search'])->name('search');
+
+Route::get('/dashboard', function () {})->middleware('auth')->name('dashboard');
+
 
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
