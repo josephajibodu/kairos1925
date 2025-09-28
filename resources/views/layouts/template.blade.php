@@ -8,7 +8,7 @@
     <meta name="author" content="wpOceans">
     <link rel="shortcut icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}">
 
-    <title>@yield('title', config('wedding.title', 'Habibi - Wedding & Wedding Planner HTML5 Template'))</title>
+    <title>@yield('title', config('wedding.title', 'Esther & Joseph'))</title>
 
     {{-- Template CSS --}}
     <link href="{{ asset('assets/css/themify-icons.css') }}" rel="stylesheet">

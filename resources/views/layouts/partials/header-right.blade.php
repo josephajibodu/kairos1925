@@ -1,5 +1,5 @@
 <div class="header-right">
-    <div class="header-search-form-wrapper">
+    <div style="display: none;" class="header-search-form-wrapper">
         <div class="cart-search-contact">
             <button class="search-toggle-btn"><i class="fi flaticon-search"></i></button>
             <div class="header-search-form">
@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-    <div class="mini-cart">
+    <div style="display: none;" class="mini-cart">
         <button class="cart-toggle-btn">
             <i class="fi flaticon-shopping-cart"></i>
             <span class="cart-count">2</span>
