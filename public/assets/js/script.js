@@ -1287,6 +1287,10 @@
         }else if(localStorage.getItem('switerColor') == 'color15'){
             $('body').addClass('color15')
             $('#Button15').addClass('active') 
+        } else {
+            // Default to color6 (purple) if no color is saved
+            $('body').addClass('color6')
+            $('#Button6').addClass('active')
         }
 
     })

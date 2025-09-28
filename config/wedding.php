@@ -10,9 +10,17 @@ return [
         'display_names' => env('WEDDING_DISPLAY_NAMES', 'Esther & Joseph'),
         'wedding_date' => env('WEDDING_DATE', 'November 1, 2025'),
         'wedding_date_raw' => env('WEDDING_DATE_RAW', '2025-11-01'),
-        'announcement_text' => env('WEDDING_ANNOUNCEMENT', 'We Are Getting Married November 1, 2025'),
-        'bride_bio' => env('WEDDING_BRIDE_BIO', 'A beautiful soul with a heart full of love and laughter. Esther brings joy to everyone around her and has been the light of my life since we met on that fateful SEA001 field trip.'),
-        'groom_bio' => env('WEDDING_GROOM_BIO', 'A dedicated and loving man who knew from the moment he saw Esther that she was the one. Joseph is passionate about life, family, and keeping the promises he makes - especially the one he made on our first date.'),
+        'announcement_text' => env('WEDDING_ANNOUNCEMENT', 'We said YES, and now we\'re saying \'I do\' 💍 Join us as we count down to the beginning of forever'),
+        'bride_bio' => env('WEDDING_BRIDE_BIO', '💃🏽 Bride | Kind, Honest & Spontaneous
+
+Joseph will tell you the first thing he noticed about Esther was her kindness (and he hasn\'t stopped noticing since 😀). She doesn\'t really do "favourites", that is, no one favourite food, colour, or hobby. She just follows what she loves in the moment, and somehow, it always feels right.
+
+What melts Joseph\'s heart? The way she listens, the way she laughs, and how she somehow makes his long explanations sound like poetry. Sure, she sometimes gets a little tired of his endless "but why?" questions, but in the end, it is all part of what makes their story so beautiful.'),
+        'groom_bio' => env('WEDDING_GROOM_BIO', '🕺🏽 Groom | Honest & Kind
+
+Joseph is the calm, steady voice Esther never knew she needed. Honest, kind, and the kind of man who checks in, not just once, but always. He has a playful side too, if you ever talk around him, be ready for your last word to turn into his new song lyric 🎶 (Esther knows this all too well).
+
+What she loves most? The way he shows up, every single time, no matter what. Her biggest gratitude? That she has him, not just for this season, but in her corner for life.'),
     ],
 
     'contact' => [
@@ -54,19 +62,27 @@ return [
         [
             'date' => 'July 10, 2019',
             'title' => 'How We Met',
-            'description' => 'I met Esther on July 10, 2019 at the most unlikely event, the SEA001 field trip. While scrambling for a space in the bus among many other students, I sighted her from behind. Something struck within me; I didn\'t know what it was, but I knew I wanted to know her. I pushed harder to get on the bus, even leaving my friend behind because I had seen "the lady." By the time I entered, all the seats were gone, and I had to stand. Unexpectedly, Esther and her friends adjusted and offered me a seat beside her.',
+            'description' => 'I met Esther on July 10, 2019, during the SEA001 field trip. While scrambling for a seat on the bus, I saw her from behind, and something just struck me. I didn\'t know what it was, but I knew I wanted to know her. I even left my friend behind just to get in, only to find all the seats were already taken.
+
+That\'s when I noticed him. He looked stranded, so I shifted over, squeezed into my friend\'s seat, and made space for him beside me. Little did I know that small act of kindness would lead to… this 👀💍.
+
+We became friends after that trip, and a few months later, Joseph finally asked me out (apparently that was the plan all along 😂). From field trip strangers to soulmates and now we are here, counting down to forever.',
             'image' => 'assets/images/story/1.jpg',
         ],
         [
             'date' => '6th July, 2025',
-            'title' => 'He Proposed, I Said Yes',
-            'description' => 'That simple act opened the door to our first conversation. We became friends, and a few months later, Joseph asked me to be his girlfriend. On that very day, he told me, "I\'m asking you to be my girlfriend because I want to marry you." Joseph proposed to me on the 6th of July 2025 in Lekki, Lagos State after we went on a romantic date to an art exhibition titled echoes of innocence. The rest, as they say, is history, and today, that promise becomes reality.',
+            'title' => 'He Proposed, I Said Yes 💍',
+            'description' => 'If you are reading this, you have probably already seen our proposal video (and maybe even replayed it a few times 😅). But if you haven\'t, here\'s a little recap.
+
+What started as a simple act of kindness on a bus years ago led to countless memories and friendship that blossomed into love. A few months into dating, Joseph made his intentions clear: "I\'m asking you to be my girlfriend because I want to marry you."
+
+Fast forward to July 6, 2025, after we both got back from an art exhibition in Lekki titled Echoes of Innocence, Joseph got down on one knee, and I said YES! 💕 That moment wasn\'t just a proposal, it was the fulfillment of a promise. And today, that promise is becoming our forever.',
             'image' => 'assets/images/story/2.jpg',
         ],
         [
             'date' => 'Coming Soon',
-            'title' => 'Our Engagement Day',
-            'description' => 'Our Engagement day is going to be the day our families come together under the Yoruba culture to pay the bride price with the groom family coming bearing gifts for the bride and her family and a letter of proposal to the family. After accepting proposal the family blesses the union of their children as they start a new family. It promises to be a really fun event.',
+            'title' => 'The Big Day 🎉',
+            'description' => 'And just because we are Nigerians, you already know we are having an engagement ceremony to kick off this beautiful love story! 💍✨',
             'image' => 'assets/images/story/3.jpg',
         ],
     ],
