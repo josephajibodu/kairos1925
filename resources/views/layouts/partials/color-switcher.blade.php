@@ -1,4 +1,4 @@
-<div class="color-switcher-wrap">
+<div style="display: none;" class="color-switcher-wrap">
     <div class="color-switcher-item">
         <div class="color-toggle-btn">
             <i class="fa fa-cog"></i>

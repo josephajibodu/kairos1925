@@ -6,7 +6,7 @@
             <div class="loader-line-mask">
                 <div class="loader-line"></div>
             </div>
-            <img src="{{ asset('assets/images/preloader.gif') }}" alt="">
+            <img src="{{ asset('assets/images/preloader-new2.gif') }}" alt="">
         </div>
     </div>
 </div>

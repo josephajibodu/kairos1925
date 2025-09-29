@@ -4,26 +4,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col col-xl-3  col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="widget link-widget">
-                        <div class="widget-title">
-                            <h3>Links</h3>
-                        </div>
-                        <p>{{ config('wedding.footer_description', 'We can\'t wait to see all of our beloved friends and relatives at our wedding.') }}</p>
-                        <div class="link-wrap">
-                            <ul>
-                                <li><a href="{{ route('about') }}">About</a></li>
-                                <li><a href="{{ route('services') }}">Services</a></li>
-                                <li><a href="{{ route('rsvp') }}">RSVP</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="{{ route('gallery') }}">Gallery</a></li>
-                                <li><a href="{{ route('contact') }}">Get Quote</a></li>
-                                <li><a href="{{ route('contact') }}">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-xl-6 col-lg-4 col-md-6 col-sm-12 col-12">
+
                     <div class="widget about-widget">
                         <div class="logo widget-title">
                             <a class="logo" href="{{ route('home') }}">
@@ -48,6 +29,12 @@
                                 </a>
                             </li>
                         </ul>
+                    </div>
+
+                </div>
+                <div class="col col-xl-6 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="widget about-widget">
+
                     </div>
                 </div>
                 <div class="col col-xl-3  col-lg-4 col-md-6 col-sm-12 col-12">
