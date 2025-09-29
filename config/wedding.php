@@ -39,9 +39,9 @@ What she loves most? The way he shows up, every single time, no matter what. Her
 
     'events' => [
         'ceremony' => [
-            'title' => 'The Ceremony',
+            'title' => 'Engagement',
             'date' => 'Saturday, 1 Nov. 2025',
-            'time' => '10:00 AM – 1:00 PM',
+            'time' => '9:30 AM – 1:00 PM',
             'address' => 'JOBAMED EVENT CENTER, Along Robiyan Ibaragun Road, Abule Ijoko, Ogun State.',
             'phone' => '08167297386',
             'image' => 'assets/images/event/2.jpg',
@@ -116,10 +116,9 @@ Fast forward to July 6, 2025, after we both got back from an art exhibition in L
 
     'gifts' => [
         'bank_details' => [
-            'account_name' => env('WEDDING_BANK_ACCOUNT_NAME', 'Esther Alade & Joseph Ajibodu'),
-            'account_number' => env('WEDDING_BANK_ACCOUNT_NUMBER', '1234567890'),
-            'bank_name' => env('WEDDING_BANK_NAME', 'Access Bank'),
-            'sort_code' => env('WEDDING_BANK_SORT_CODE', '044'),
+            'account_name' => env('WEDDING_BANK_ACCOUNT_NAME', 'Alade Esther Tinuola'),
+            'account_number' => env('WEDDING_BANK_ACCOUNT_NUMBER', '2117422423'),
+            'bank_name' => env('WEDDING_BANK_NAME', 'Zenith Bank'),
         ],
         'online_payment_options' => [
             [

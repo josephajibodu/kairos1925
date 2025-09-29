@@ -12,7 +12,7 @@
                             </a>
                         </div>
                         <p>{{ config('wedding.footer_description', 'We can\'t wait to see all of our beloved friends and relatives at our wedding.') }}</p>
-                        <ul>
+                        <ul style="display: none;">
                             <li>
                                 <a href="{{ config('wedding.social.facebook', '#') }}">
                                     <i class="ti-facebook"></i>
@@ -43,8 +43,8 @@
                             <h3>Contact</h3>
                         </div>
                         <div class="contact-ft">
-                            <p>{{ config('wedding.contact.email', 'Habibi@wpoceans.com') }}</p>
-                            <p>{{ config('wedding.contact.address', '4517 Washington Ave. Manchester, Kentucky 39495') }}</p>
+                            <p>{{ config('wedding.contact.email') }}</p>
+                            <p>{{ config('wedding.contact.address') }}</p>
                         </div>
                     </div>
                 </div>

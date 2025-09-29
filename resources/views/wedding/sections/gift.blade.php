@@ -17,7 +17,7 @@
                             <h3 style="font-family: inherit; font-style: normal;"><i class="ti-credit-card"></i> Bank
                                 Transfer Details</h3>
                             <p style="font-size: 18px;">You can support us by making a direct bank transfer to our
-                                account</p>
+                                account <br> <i style="font-weight: lighter;">or online by scrolling down to the next section</i></p>
                         </div>
                         <div class="bank-info">
                             <div class="bank-row">
@@ -34,11 +34,6 @@
                                 <span class="bank-label" style="font-size: 16px;">Bank Name:</span>
                                 <span class="bank-value"
                                     style="font-size: 16px;">{{ config('wedding.gifts.bank_details.bank_name') }}</span>
-                            </div>
-                            <div class="bank-row">
-                                <span class="bank-label" style="font-size: 16px;">Sort Code:</span>
-                                <span class="bank-value"
-                                    style="font-size: 16px;">{{ config('wedding.gifts.bank_details.sort_code') }}</span>
                             </div>
                         </div>
                     </div>
@@ -81,7 +76,9 @@
                                     <p>{{ $gift['description'] }}</p>
                                     <div class="custom-amount-input mb-3">
                                         <input type="number" id="customAmount" class="form-control"
-                                            placeholder="Enter amount (₦)" min="1" step="1">
+                                            placeholder="Enter amount (₦)" min="1" step="1"
+                                               style="padding: 12px 24px; max-width: 300px; margin: auto;"
+                                        >
                                     </div>
                                     <div class="gift-action">
                                         <a href="#" id="customPaymentLink" target="_blank" class="theme-btn-s2"

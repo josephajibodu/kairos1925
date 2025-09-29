@@ -37,27 +37,13 @@
                                         </svg>
                                     </div>
                                     <div class="couple-text">
-                                        <h3>Esther Alade</h3>
-                                        <h4>💃🏽 Bride | Kind, Honest & Spontaneous</h4>
-                                        <p>Joseph will tell you the first thing he noticed about Esther was her
-                                            kindness (and he hasn't stopped noticing since 😀). She doesn't really do
-                                            "favourites", that is, no one favourite food, colour, or hobby. She just
-                                            follows what she loves in the moment, and somehow, it always feels right.
-
-                                            What melts Joseph's heart? The way she listens, the way she laughs, and how
-                                            she somehow makes his long explanations sound like poetry. Sure, she
-                                            sometimes gets a little tired of his endless "but why?" questions, but in
-                                            the end, it is all part of what makes their story so beautiful.</p>
-                                        <div class="social">
-                                            <ul>
-                                                <li><a href="{{ config('wedding.social.facebook', '#') }}"><i
-                                                            class="ti-facebook"></i></a></li>
-                                                <li><a href="{{ config('wedding.social.twitter', '#') }}"><i
-                                                            class="ti-twitter-alt"></i></a></li>
-                                                <li><a href="{{ config('wedding.social.instagram', '#') }}"><i
-                                                            class="ti-instagram"></i></a></li>
-                                            </ul>
-                                        </div>
+                                        <h3 class="mb-0">Esther Alade</h3>
+                                        <p class="fs-6"><strong>Kind, Honest & Unique</strong></p>
+                                        <p>
+                                            Joseph says the very first thing he noticed about Esther was her kindness.
+                                            She doesn’t have one “favourite” food, colour, or hobby; instead, she
+                                            embraces what she loves in each moment, and somehow, it always feels right.
+                                        </p>
                                     </div>
                                     <div class="round-shape">
                                         <div class="inner"></div>
@@ -81,26 +67,15 @@
                                         </svg>
                                     </div>
                                     <div class="couple-text">
-                                        <h3>Joseph Ajibodu</h3>
-                                        <h4>🕺🏽 Groom | Honest & Kind</h4>
-                                        <p>Joseph is the calm, steady voice Esther never knew she needed. Honest, kind,
-                                            and the kind of man who checks in, not just once, but always. He has a
-                                            playful side too, if you ever talk around him, be ready for your last word
-                                            to turn into his new song lyric 🎶 (Esther knows this all too well).
-
-                                            What she loves most? The way he shows up, every single time, no matter what.
-                                            Her biggest gratitude? That she has him, not just for this season, but in
-                                            her corner for life.</p>
-                                        <div class="social">
-                                            <ul>
-                                                <li><a href="{{ config('wedding.social.facebook', '#') }}"><i
-                                                            class="ti-facebook"></i></a></li>
-                                                <li><a href="{{ config('wedding.social.twitter', '#') }}"><i
-                                                            class="ti-twitter-alt"></i></a></li>
-                                                <li><a href="{{ config('wedding.social.instagram', '#') }}"><i
-                                                            class="ti-instagram"></i></a></li>
-                                            </ul>
-                                        </div>
+                                        <h3 class="mb-0">Joseph Ajibodu</h3>
+                                        <p class="fs-6"><strong>Kind, Witty & Spontaneous</strong></p>
+                                        <p>
+                                            To Esther, Joseph is the calm, steady voice she can
+                                            always lean on. His wit is unmatched, if you ever
+                                            talk around him, be ready for your last word to
+                                            turn into a song. <br />
+                                            (Esther knows this all too well 😄)
+                                        </p>
                                     </div>
                                     <div class="round-shape">
                                         <div class="inner"></div>
