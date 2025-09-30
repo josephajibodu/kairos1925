@@ -6,7 +6,7 @@
     @include('wedding.sections.hero')
     @include('wedding.sections.couple')
     @include('wedding.sections.story')
-{{--    @include('wedding.sections.gallery')--}}
+    @include('wedding.sections.gallery')
     @include('wedding.sections.events')
     @include('wedding.sections.gift')
 @endsection
