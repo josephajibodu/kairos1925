@@ -8,7 +8,7 @@
                     <div class="widget about-widget">
                         <div class="logo widget-title">
                             <a class="logo" href="{{ route('home') }}">
-                                {{ config('wedding.site_name', 'Habibi') }}
+                                Kairos1925
                             </a>
                         </div>
                         <p>We can't wait to see all of our beloved friends and relatives at our wedding.</p>
@@ -43,8 +43,8 @@
                             <h3>Contact</h3>
                         </div>
                         <div class="contact-ft">
-                            <p>{{ config('wedding.contact.email') }}</p>
-                            <p>{{ config('wedding.contact.address') }}</p>
+                            <p>kairos1915@gmail.com</p>
+                            <p>JOBAMED EVENT CENTER, Along Robiyan Ibaragun Road, Abule Ijoko, Ogun State.</p>
                         </div>
                     </div>
                 </div>

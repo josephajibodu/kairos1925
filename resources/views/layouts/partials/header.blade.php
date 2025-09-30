@@ -17,7 +17,7 @@
                     <div class="col-lg-2 col-md-6 col-6">
                         <div class="navbar-header">
                             <a class="navbar-brand" href="{{ route('home') }}">
-                                {{ config('wedding.site_name', 'Habibi') }}
+                                Kairos1925
                             </a>
                         </div>
                     </div>
