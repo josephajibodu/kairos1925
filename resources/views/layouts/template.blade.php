@@ -5,10 +5,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="wpOceans">
+    <meta name="author" content="josephajibodu">
     <link rel="shortcut icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}">
 
-    <title>@yield('title', 'Esther & Joseph')</title>
+
+    <title>Kairos1925 | Joseph & Esther’s Wedding Celebration</title>
+    <meta name="title" content="Kairos1925 | Joseph & Esther’s Wedding Celebration">
+    <meta name="description" content="Join Joseph & Esther as we celebrate Kairos1925 — our wedding story, photos, and event details. In God’s perfect time, our forever begins.">
+    <link rel="canonical" href="{{ url('/') }}" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kairos1925.com/">
+    <meta property="og:title" content="Kairos1925 | Joseph & Esther’s Wedding Celebration">
+    <meta property="og:description" content="Join Joseph & Esther as we celebrate Kairos1925 — our wedding story, photos, and event details. In God’s perfect time, our forever begins.">
+    <meta property="og:image" content="{{ asset('assets/images/og-image.png') }}">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://kairos1925.com/">
+    <meta name="twitter:title" content="Kairos1925 | Joseph & Esther’s Wedding Celebration">
+    <meta name="twitter:description" content="Join Joseph & Esther as we celebrate Kairos1925 — our wedding story, photos, and event details. In God’s perfect time, our forever begins.">
+    <meta name="twitter:image" content="{{ asset('assets/images/og-image.png') }}">
 
     {{-- Template CSS --}}
     <link href="{{ asset('assets/css/themify-icons.css') }}" rel="stylesheet">
