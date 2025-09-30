@@ -10,10 +10,10 @@
                                 <img src="{{ asset('assets/images/slider/shape1.svg') }}" alt="">
                             </div>
                             <div class="slide-title wow fadeInUp" data-wow-duration="1500ms">
-                                <h2>{{ config('wedding.couple.display_names', 'James & Amelia') }}</h2>
+                                <h2>Esther & Joseph</h2>
                             </div>
                             <div data-swiper-parallax="400" class="slide-text wow fadeInUp" data-wow-duration="1600ms">
-                                <p>{{ config('wedding.couple.announcement_text', 'We Are Getting Married November 15,2024') }}</p>
+                                <p>We said <b>YES</b>, and now we're saying '<b>I do</b>' 💍 Join us as we count down to the beginning of forever</p>
                             </div>
                             <div class="wpo-wedding-date wow fadeInUp" data-wow-duration="1700ms">
                                 <div class="clock-grids">

@@ -1,6 +1,6 @@
 @extends('layouts.template')
 
-@section('title', 'Home - ' . config('wedding.couple.display_names', 'James & Amelia') . ' Wedding')
+@section('title', 'Home - Esther & Joseph Wedding')
 
 @section('content')
     @include('wedding.sections.hero')

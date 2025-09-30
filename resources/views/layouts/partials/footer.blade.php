@@ -11,7 +11,7 @@
                                 {{ config('wedding.site_name', 'Habibi') }}
                             </a>
                         </div>
-                        <p>{{ config('wedding.footer_description', 'We can\'t wait to see all of our beloved friends and relatives at our wedding.') }}</p>
+                        <p>We can't wait to see all of our beloved friends and relatives at our wedding.</p>
                         <ul style="display: none;">
                             <li>
                                 <a href="{{ config('wedding.social.facebook', '#') }}">

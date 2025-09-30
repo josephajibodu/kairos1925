@@ -1,41 +1,11 @@
 <?php
 
 return [
-    'site_name' => env('WEDDING_SITE_NAME', 'Kairos1925'),
-    'title' => env('WEDDING_TITLE', 'Esther & Joseph'),
-
-    'couple' => [
-        'bride_name' => env('WEDDING_BRIDE_NAME', 'Esther Alade'),
-        'groom_name' => env('WEDDING_GROOM_NAME', 'Joseph Ajibodu'),
-        'display_names' => env('WEDDING_DISPLAY_NAMES', 'Esther & Joseph'),
-        'wedding_date' => env('WEDDING_DATE', 'November 1, 2025'),
-        'wedding_date_raw' => env('WEDDING_DATE_RAW', '2025-11-01'),
-        'announcement_text' => env('WEDDING_ANNOUNCEMENT', 'We said YES, and now we\'re saying \'I do\' 💍 Join us as we count down to the beginning of forever'),
-        'bride_bio' => env('WEDDING_BRIDE_BIO', '💃🏽 Bride | Kind, Honest & Spontaneous
-
-Joseph will tell you the first thing he noticed about Esther was her kindness (and he hasn\'t stopped noticing since 😀). She doesn\'t really do "favourites", that is, no one favourite food, colour, or hobby. She just follows what she loves in the moment, and somehow, it always feels right.
-
-What melts Joseph\'s heart? The way she listens, the way she laughs, and how she somehow makes his long explanations sound like poetry. Sure, she sometimes gets a little tired of his endless "but why?" questions, but in the end, it is all part of what makes their story so beautiful.'),
-        'groom_bio' => env('WEDDING_GROOM_BIO', '🕺🏽 Groom | Honest & Kind
-
-Joseph is the calm, steady voice Esther never knew she needed. Honest, kind, and the kind of man who checks in, not just once, but always. He has a playful side too, if you ever talk around him, be ready for your last word to turn into his new song lyric 🎶 (Esther knows this all too well).
-
-What she loves most? The way he shows up, every single time, no matter what. Her biggest gratitude? That she has him, not just for this season, but in her corner for life.'),
-    ],
-
-    'contact' => [
-        'email' => env('WEDDING_CONTACT_EMAIL', 'kairos1925@gmail.com'),
-        'phone' => env('WEDDING_CONTACT_PHONE', '08167297386'),
-        'address' => env('WEDDING_ADDRESS', 'JOBAMED EVENT CENTER, Along Robiyan Ibaragun Road, Abule Ijoko, Ogun State.'),
-    ],
-
     'social' => [
         'facebook' => env('WEDDING_FACEBOOK', '#'),
         'twitter' => env('WEDDING_TWITTER', '#'),
         'instagram' => env('WEDDING_INSTAGRAM', '#'),
     ],
-
-    'footer_description' => env('WEDDING_FOOTER_DESCRIPTION', 'We can\'t wait to see all of our beloved friends and relatives at our wedding on November 1, 2025.'),
 
     'events' => [
         'ceremony' => [
