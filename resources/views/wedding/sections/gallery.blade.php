@@ -5,11 +5,11 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="portfolio-grids gallery-container clearfix portfolio-slide owl-carousel">
-                    @for($i = 1; $i <= 6; $i++)
+                    @for($i = 1; $i <= 10; $i++)
                     <div class="grid">
                         <div class="img-holder">
-                            <a href="{{ asset('assets/images/portfolio/' . $i . '.jpg') }}" class="fancybox" data-fancybox-group="gall-1">
-                                <img src="{{ asset('assets/images/portfolio/' . $i . '.jpg') }}" alt class="img img-responsive">
+                            <a href="{{ asset('assets/images/gallery/kairos-' . $i . '.png') }}" class="fancybox" data-fancybox-group="gall-1">
+                                <img src="{{ asset('assets/images/gallery/kairos-' . $i . '.png') }}" alt class="img img-responsive">
                                 <div class="hover-content">
                                     <i class="ti-plus"></i>
                                 </div>

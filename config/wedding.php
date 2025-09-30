@@ -14,7 +14,7 @@ return [
             'time' => '9:30 AM – 1:00 PM',
             'address' => 'JOBAMED EVENT CENTER, Along Robiyan Ibaragun Road, Abule Ijoko, Ogun State.',
             'phone' => '08167297386',
-            'image' => 'assets/images/event/2.jpg',
+            'image' => 'assets/images/event/1.png',
             'google_maps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.1234567890123!2d3.2975512!3d6.7481757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bbdee15f3382f%3A0xd1b98e477d665c22!2sJOBAMED%20EVENT%20CENTER!5e0!3m2!1sen!2sng!4v1503742051881',
         ],
         'party' => [
@@ -23,7 +23,7 @@ return [
             'time' => '1:00 PM – 3:00 PM',
             'address' => 'JOBAMED EVENT CENTER, Along Robiyan Ibaragun Road, Abule Ijoko, Ogun State.',
             'phone' => '08167297386',
-            'image' => 'assets/images/event/3.jpg',
+            'image' => 'assets/images/event/2.png',
             'google_maps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.1234567890123!2d3.2975512!3d6.7481757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bbdee15f3382f%3A0xd1b98e477d665c22!2sJOBAMED%20EVENT%20CENTER!5e0!3m2!1sen!2sng!4v1503742051881',
         ],
     ],
@@ -37,7 +37,7 @@ return [
 That\'s when I noticed him. He looked stranded, so I shifted over, squeezed into my friend\'s seat, and made space for him beside me. Little did I know that small act of kindness would lead to… this 👀💍.
 
 We became friends after that trip, and a few months later, Joseph finally asked me out (apparently that was the plan all along 😂). From field trip strangers to soulmates and now we are here, counting down to forever.',
-            'image' => 'assets/images/story/1.jpg',
+            'image' => 'assets/images/story/story-1.png',
         ],
         [
             'date' => '6th July, 2025',
@@ -47,13 +47,13 @@ We became friends after that trip, and a few months later, Joseph finally asked 
 What started as a simple act of kindness on a bus years ago led to countless memories and friendship that blossomed into love. A few months into dating, Joseph made his intentions clear: "I\'m asking you to be my girlfriend because I want to marry you."
 
 Fast forward to July 6, 2025, after we both got back from an art exhibition in Lekki titled Echoes of Innocence, Joseph got down on one knee, and I said YES! 💕 That moment wasn\'t just a proposal, it was the fulfillment of a promise. And today, that promise is becoming our forever.',
-            'image' => 'assets/images/story/2.jpg',
+            'image' => 'assets/images/story/story-2.png',
         ],
         [
             'date' => 'Coming Soon',
             'title' => 'The Big Day 🎉',
             'description' => 'And just because we are Nigerians, you already know we are having an engagement ceremony to kick off this beautiful love story! 💍✨',
-            'image' => 'assets/images/story/3.jpg',
+            'image' => 'assets/images/story/story-3.png',
         ],
     ],
 

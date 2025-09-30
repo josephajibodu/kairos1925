@@ -33,7 +33,7 @@
     <div class="static-hero-right">
         <div class="static-hero-img scene" id="scene">
             <div class="static-hero-img-inner">
-                <img src="{{ asset('assets/images/slider/hero-1.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/slider/hero_.png') }}" alt="">
             </div>
             <div class="static-hero-shape-1 wow fadeInDown" data-wow-delay=".5s">
                 <span class="layer" data-depth="0.25">

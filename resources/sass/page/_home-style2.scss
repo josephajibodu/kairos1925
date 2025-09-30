@@ -412,6 +412,27 @@
     }
 }
 
+/* Ensure parallax couple images have size on small screens without disabling parallax */
+@media(max-width:575px) {
+    .wpo-couple-section-s2 {
+        .couple-item-wrap {
+            .couple-img {
+                img {
+                    width: 260px;
+                    height: auto;
+                    max-width: none;
+                    display: block;
+                }
+            }
+        }
+        /* Let point items size to content so images don't collapse */
+        .point__item {
+            width: auto;
+            height: auto;
+        }
+    }
+}
+
 /* 5.2 wpo-story-section-s2 */
 
 .wpo-story-section-s2 {

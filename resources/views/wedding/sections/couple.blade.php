@@ -37,12 +37,14 @@
                                         </svg>
                                     </div>
                                     <div class="couple-text">
-                                        <h3 class="mb-0">Esther Alade</h3>
-                                        <p class="fs-6"><strong>Kind, Honest & Unique</strong></p>
+                                        <h3 class="mb-0">Joseph Ajibodu</h3>
+                                        <p class="fs-6"><strong>Kind, Witty & Spontaneous</strong></p>
                                         <p>
-                                            Joseph says the very first thing he noticed about Esther was her kindness.
-                                            She doesn’t have one “favourite” food, colour, or hobby; instead, she
-                                            embraces what she loves in each moment, and somehow, it always feels right.
+                                            To Esther, Joseph is the calm, steady voice she can
+                                            always lean on. His wit is unmatched, if you ever
+                                            talk around him, be ready for your last word to
+                                            turn into a song. <br />
+                                            (Esther knows this all too well 😄)
                                         </p>
                                     </div>
                                     <div class="round-shape">
@@ -67,14 +69,12 @@
                                         </svg>
                                     </div>
                                     <div class="couple-text">
-                                        <h3 class="mb-0">Joseph Ajibodu</h3>
-                                        <p class="fs-6"><strong>Kind, Witty & Spontaneous</strong></p>
+                                        <h3 class="mb-0">Esther Alade</h3>
+                                        <p class="fs-6"><strong>Kind, Honest & Unique</strong></p>
                                         <p>
-                                            To Esther, Joseph is the calm, steady voice she can
-                                            always lean on. His wit is unmatched, if you ever
-                                            talk around him, be ready for your last word to
-                                            turn into a song. <br />
-                                            (Esther knows this all too well 😄)
+                                            Joseph says the very first thing he noticed about Esther was her kindness.
+                                            She doesn’t have one “favourite” food, colour, or hobby; instead, she
+                                            embraces what she loves in each moment, and somehow, it always feels right.
                                         </p>
                                     </div>
                                     <div class="round-shape">
