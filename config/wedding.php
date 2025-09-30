@@ -42,7 +42,7 @@ We became friends after that trip, and a few months later, Joseph finally asked 
         [
             'date' => '6th July, 2025',
             'title' => 'He Proposed, I Said Yes 💍',
-            'description' => 'If you are reading this, you have probably already seen our proposal video (and maybe even replayed it a few times 😅). But if you haven\'t, here\'s a little recap.
+            'description' => 'If you are reading this, you have probably seen our proposal video (and maybe even replayed it a few times 😅). But if you haven\'t, here\'s a little recap.
 
 What started as a simple act of kindness on a bus years ago led to countless memories and friendship that blossomed into love. A few months into dating, Joseph made his intentions clear: "I\'m asking you to be my girlfriend because I want to marry you."
 
