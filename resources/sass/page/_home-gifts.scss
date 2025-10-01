@@ -25,6 +25,19 @@ Custom Gifts Section Styles - Updated with Custom Input
         border: 2px solid #f8f9fa;
         transition: all 0.3s ease;
 
+        &.compact {
+            padding: 20px;
+
+            .bank-header {
+                margin-bottom: 20px;
+                text-align: left;
+            }
+
+            .bank-info .bank-row {
+                padding: 10px 0;
+            }
+        }
+
         &:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
@@ -98,6 +111,24 @@ Custom Gifts Section Styles - Updated with Custom Input
         color: #666;
         font-size: 16px;
         margin: 0;
+    }
+
+    .online-gift-arrow {
+        text-align: center;
+        margin-top: 15px;
+
+        i {
+            display: inline-block;
+        }
+    }
+}
+
+@keyframes bounceDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
     }
 }
 
@@ -728,6 +759,16 @@ Custom Gifts Section Styles - Updated with Custom Input
 
 // Responsive adjustments
 @media (max-width: 768px) {
+    .gift-online-section {
+        h4 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
     .gift-bank-details {
         .bank-card {
             padding: 20px;

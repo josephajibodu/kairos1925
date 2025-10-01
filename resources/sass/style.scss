@@ -222,3 +222,20 @@ Version:        1.0.0
 @import "page/_home-gifts";
 
 @import "base/_color";
+
+// Gift section highlight animation
+.gift-section-highlight {
+    animation: highlightGiftSection 1s ease-in-out;
+}
+
+@keyframes highlightGiftSection {
+    0% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: rgba(184, 143, 211, 0.1);
+    }
+    100% {
+        background-color: transparent;
+    }
+}

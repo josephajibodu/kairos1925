@@ -8,51 +8,50 @@
             </div>
         </div>
 
-        <!-- Bank Account Details -->
-        <div class="row mb-5">
-            <div class="col-12">
+        <!-- Two Column Layout: Bank Details + Online Options -->
+        <div class="row mb-5 align-items-start">
+            <!-- Bank Account Details - Left Column -->
+            <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
                 <div class="gift-bank-details wow fadeInUp" data-wow-duration="1000ms">
-                    <div class="bank-card">
+                    <div class="bank-card compact">
                         <div class="bank-header">
-                            <h3 style="font-family: inherit; font-style: normal;"><i class="ti-credit-card"></i> Bank
-                                Transfer Details</h3>
-                            <p style="font-size: 18px;">You can support us by making a direct bank transfer to our
-                                account <br> <i style="font-weight: lighter;">or online by scrolling down to the next section</i></p>
+                            <h4 style="font-family: inherit; font-style: normal; font-size: 20px; margin-bottom: 10px;">
+                                <i class="ti-credit-card"></i> Bank Transfer
+                            </h4>
                         </div>
                         <div class="bank-info">
                             <div class="bank-row">
-                                <span class="bank-label" style="font-size: 16px;">Account Name:</span>
+                                <span class="bank-label" style="font-size: 14px;">Account Name:</span>
                                 <span class="bank-value"
-                                    style="font-size: 16px;">{{ config('wedding.gifts.bank_details.account_name') }}</span>
+                                    style="font-size: 14px; font-weight: 600;">{{ config('wedding.gifts.bank_details.account_name') }}</span>
                             </div>
                             <div class="bank-row">
-                                <span class="bank-label" style="font-size: 16px;">Account Number:</span>
+                                <span class="bank-label" style="font-size: 14px;">Account Number:</span>
                                 <span class="bank-value"
-                                    style="font-size: 16px;">{{ config('wedding.gifts.bank_details.account_number') }}</span>
+                                    style="font-size: 14px; font-weight: 600;">{{ config('wedding.gifts.bank_details.account_number') }}</span>
                             </div>
                             <div class="bank-row">
-                                <span class="bank-label" style="font-size: 16px;">Bank Name:</span>
+                                <span class="bank-label" style="font-size: 14px;">Bank Name:</span>
                                 <span class="bank-value"
-                                    style="font-size: 16px;">{{ config('wedding.gifts.bank_details.bank_name') }}</span>
+                                    style="font-size: 14px; font-weight: 600;">{{ config('wedding.gifts.bank_details.bank_name') }}</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Online Payment Options -->
-        <div class="row">
-            <div class="col-12">
+            <!-- Online Payment Options - Right Column -->
+            <div class="col-lg-7 col-md-12">
                 <div class="gift-online-section">
-                    <h4 class="text-center mb-4" style="font-family: inherit; font-style: normal;">Or Support Us Online
+                    <h4 class="mb-3" style="font-family: inherit; font-style: normal; font-size: 20px;">
+                        💳 Or Gift Us Online
                     </h4>
-                    <p class="text-center mb-3" style="font-size: 18px;">Choose from different categories to support our
-                        wedding in a meaningful
-                        way</p>
-                    <p class="text-center mb-5 text-muted" style="font-size: 16px;"><em>Remember, no amount is too small
-                            to show your love and
-                            support for us!</em></p>
+                    <p class="mb-3" style="font-size: 16px;">Choose from different gift categories below to support our
+                        wedding</p>
+                    <div class="online-gift-arrow">
+                        <i class="ti-arrow-down"
+                            style="font-size: 24px; color: #ef3567; animation: bounceDown 1.5s ease-in-out infinite;"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -76,9 +75,8 @@
                                     <p>{{ $gift['description'] }}</p>
                                     <div class="custom-amount-input mb-3">
                                         <input type="number" id="customAmount" class="form-control"
-                                            placeholder="Enter amount (₦)" min="1" step="1"
-                                               style="padding: 12px 24px; max-width: 300px; margin: auto;"
-                                        >
+                                            placeholder="Enter amount e.g 2000" min="1" step="1"
+                                            style="padding: 12px 24px; max-width: 300px; margin: auto;">
                                     </div>
                                     <div class="gift-action">
                                         <a href="#" id="customPaymentLink" target="_blank" class="theme-btn-s2"
