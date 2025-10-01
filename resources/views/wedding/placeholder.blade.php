@@ -1,6 +1,6 @@
 @extends('layouts.template')
 
-@section('title', $title ?? 'Page - ' . config('wedding.site_name', 'Habibi'))
+@section('title', $title ?? 'Page - Kairos1925')
 
 @section('content')
     <section class="section-padding">

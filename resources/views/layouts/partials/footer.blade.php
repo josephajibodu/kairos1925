@@ -43,7 +43,8 @@
                             <h3>Contact</h3>
                         </div>
                         <div class="contact-ft">
-                            <p>kairos1915@gmail.com</p>
+                            <p>0816 729 7386</p>
+                            <p>0808 179 5445</p>
                             <p>JOBAMED EVENT CENTER, Along Robiyan Ibaragun Road, Abule Ijoko, Ogun State.</p>
                         </div>
                     </div>
@@ -57,7 +58,7 @@
                 <div class="col col-xs-12">
                     <p class="copyright">
                         &copy; Copyright {{ date('Y') }} |
-                        <a href="{{ route('home') }}">{{ config('wedding.site_name', 'Habibi') }}</a> |
+                        <a href="{{ route('home') }}">Kairos1925</a> |
                         All right reserved.
                     </p>
                 </div>

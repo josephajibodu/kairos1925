@@ -1,6 +1,6 @@
 @extends('layouts.template')
 
-@section('title', 'RSVP - ' . config('wedding.site_name', 'Habibi'))
+@section('title', 'RSVP - Kairos1925')
 
 @section('content')
     @include('wedding.sections.rsvp')

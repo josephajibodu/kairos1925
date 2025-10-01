@@ -1,6 +1,6 @@
 @extends('layouts.template')
 
-@section('title', 'Contact Us - ' . config('wedding.site_name', 'Habibi'))
+@section('title', 'Contact Us - Kairos1925')
 
 @section('content')
     <section class="section-padding">

@@ -1,6 +1,6 @@
 @extends('layouts.template')
 
-@section('title', '404 - Page Not Found - ' . config('wedding.site_name', 'Habibi'))
+@section('title', '404 - Page Not Found - Kairos1925')
 
 @section('content')
     <section class="section-padding">

@@ -1,6 +1,6 @@
 @extends('layouts.template')
 
-@section('title', 'About Us - ' . config('wedding.site_name', 'Habibi'))
+@section('title', 'About Us - Kairos1925')
 
 @section('content')
     <!-- Page content will be added here -->
