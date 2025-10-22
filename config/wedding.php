@@ -86,9 +86,9 @@ Fast forward to July 6, 2025, after we both got back from an art exhibition in L
 
     'gifts' => [
         'bank_details' => [
-            'account_name' => env('WEDDING_BANK_ACCOUNT_NAME', 'Alade Esther Tinuola'),
-            'account_number' => env('WEDDING_BANK_ACCOUNT_NUMBER', '2117422423'),
-            'bank_name' => env('WEDDING_BANK_NAME', 'Zenith Bank'),
+            'account_name' => env('WEDDING_BANK_ACCOUNT_NAME', 'JOSEPH AJIBODU'),
+            'account_number' => env('WEDDING_BANK_ACCOUNT_NUMBER', '5514929976'),
+            'bank_name' => env('WEDDING_BANK_NAME', 'Moniepoint MFB'),
         ],
         'online_payment_options' => [
             [
