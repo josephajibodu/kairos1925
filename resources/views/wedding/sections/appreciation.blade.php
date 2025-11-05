@@ -40,6 +40,15 @@
                                 @endforeach
                             </div>
                         </div>
+                        <div class="appreciation-ps wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <p class="appreciation-ps-text">
+                                <strong>P.S.</strong> If you don't see your name here and you've supported us, please reach
+                                out to us.
+                                We may have accidentally missed adding you, and we sincerely apologize for any oversight.
+                                Your support means the world to us, and we want to make sure everyone is properly
+                                acknowledged. 🙏
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

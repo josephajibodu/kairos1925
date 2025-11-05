@@ -1037,6 +1037,30 @@ Custom Gifts Section Styles - Updated with Custom Input
                 }
             }
         }
+
+        .appreciation-ps {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #f0f0f0;
+
+            .appreciation-ps-text {
+                color: #666;
+                font-size: 15px;
+                line-height: 1.8;
+                text-align: center;
+                margin: 0;
+                font-style: italic;
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+
+                strong {
+                    color: #333;
+                    font-weight: 600;
+                    font-style: normal;
+                }
+            }
+        }
     }
 }
 
@@ -1085,6 +1109,16 @@ Custom Gifts Section Styles - Updated with Custom Input
                     .appreciation-subtitle {
                         font-size: 12px;
                     }
+                }
+            }
+
+            .appreciation-ps {
+                margin-top: 40px;
+                padding-top: 25px;
+
+                .appreciation-ps-text {
+                    font-size: 14px;
+                    line-height: 1.7;
                 }
             }
         }
