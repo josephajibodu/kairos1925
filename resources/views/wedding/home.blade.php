@@ -4,6 +4,7 @@
 
 @section('content')
     @include('wedding.sections.hero')
+    @include('wedding.sections.appreciation')
     @include('wedding.sections.couple')
     @include('wedding.sections.story')
     @include('wedding.sections.gallery')

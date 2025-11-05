@@ -872,3 +872,221 @@ Custom Gifts Section Styles - Updated with Custom Input
         }
     }
 }
+
+// Appreciation Section Styles
+.wpo-appreciation-section {
+    background: #f8f9fa;
+    position: relative;
+
+    .appreciation-section {
+        padding: 50px 30px;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        text-align: center;
+
+        .appreciation-header {
+            margin-bottom: 40px;
+
+            .appreciation-badge {
+                display: inline-block;
+                background: transparentize($theme-primary-color, 0.9);
+                color: $theme-primary-color;
+                padding: 10px 25px;
+                border-radius: 30px;
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                border: 2px solid transparentize($theme-primary-color, 0.7);
+
+                i {
+                    margin-right: 8px;
+                    font-size: 18px;
+                }
+            }
+
+            h3 {
+                font-size: 24px;
+                font-weight: 400;
+                color: #333;
+                margin: 0;
+                line-height: 1.6;
+                font-family: inherit;
+            }
+        }
+
+        .appreciation-people {
+            .appreciation-person {
+                background: #f8f9fa;
+                padding: 20px 15px;
+                border-radius: 10px;
+                transition: all 0.3s ease;
+                border: 2px solid transparent;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 12px;
+                height: 100%;
+                min-height: 80px;
+
+                i {
+                    color: $theme-primary-color;
+                    font-size: 20px;
+                    flex-shrink: 0;
+                }
+
+                .appreciation-person-info {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 4px;
+                    flex: 1;
+                    text-align: center;
+                }
+
+                .appreciation-name {
+                    color: #333;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 1.3;
+                }
+
+                .appreciation-subtitle {
+                    color: #666;
+                    font-size: 13px;
+                    font-weight: 400;
+                    font-style: italic;
+                    line-height: 1.2;
+                }
+
+                &:hover {
+                    background: transparentize($theme-primary-color, 0.95);
+                    border-color: transparentize($theme-primary-color, 0.7);
+                    transform: translateY(-3px);
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+                    i {
+                        color: $theme-primary-color;
+                        transform: scale(1.1);
+                    }
+
+                    .appreciation-name {
+                        color: $theme-primary-color;
+                        font-weight: 600;
+                    }
+
+                    .appreciation-subtitle {
+                        color: transparentize($theme-primary-color, 0.2);
+                    }
+                }
+
+                // Bride side styling
+                &.appreciation-person-bride {
+                    border-left: 4px solid #f8b4d4;
+                    background: #fff5f9;
+
+                    i {
+                        color: #e91e63;
+                    }
+
+                    &:hover {
+                        background: #fff0f5;
+                        border-color: #f8b4d4;
+                        border-left-color: #e91e63;
+
+                        i {
+                            color: #e91e63;
+                        }
+
+                        .appreciation-name {
+                            color: #e91e63;
+                        }
+
+                        .appreciation-subtitle {
+                            color: rgba(233, 30, 99, 0.6);
+                        }
+                    }
+                }
+
+                // Groom side styling
+                &.appreciation-person-groom {
+                    border-left: 4px solid #93c5fd;
+                    background: #eff6ff;
+
+                    i {
+                        color: #3b82f6;
+                    }
+
+                    &:hover {
+                        background: #dbeafe;
+                        border-color: #93c5fd;
+                        border-left-color: #3b82f6;
+
+                        i {
+                            color: #3b82f6;
+                        }
+
+                        .appreciation-name {
+                            color: #3b82f6;
+                        }
+
+                        .appreciation-subtitle {
+                            color: rgba(59, 130, 246, 0.6);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Responsive adjustments for appreciation section
+@media (max-width: 768px) {
+    .wpo-appreciation-section {
+        .appreciation-section {
+            padding: 30px 20px;
+
+            .appreciation-header {
+                margin-bottom: 30px;
+
+                .appreciation-badge {
+                    font-size: 14px;
+                    padding: 8px 20px;
+                    margin-bottom: 15px;
+
+                    i {
+                        font-size: 16px;
+                    }
+                }
+
+                h3 {
+                    font-size: 18px;
+                }
+            }
+
+            .appreciation-people {
+                .appreciation-person {
+                    padding: 15px 10px;
+                    min-height: 70px;
+                    gap: 10px;
+
+                    i {
+                        font-size: 18px;
+                    }
+
+                    .appreciation-person-info {
+                        gap: 3px;
+                    }
+
+                    .appreciation-name {
+                        font-size: 14px;
+                    }
+
+                    .appreciation-subtitle {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
